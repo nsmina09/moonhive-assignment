@@ -94,3 +94,10 @@
 .height {
     height: 400px;
 }
+
+.scroll{
+    overflow-x: scroll;
+    display: flex;
+    white-space: nowrap;
+    height: 40%;
+}
