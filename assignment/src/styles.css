@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+.margin {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.background-color {
+    background-color: #1D75E5;
+}
+
+.white {
+    color: white;
+}
+
+.light {
+    color: aliceblue;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+a {
+    color: rgb(215, 219, 222);
+    text-decoration: none;
+}
+
+a.active {
+    text-decoration: underline 2px white;
+    color: white
+}
+
+a.visited,
+a.link {
+    color: rgb(215, 219, 222);
+    text-decoration: none;
+}
+
+a.hover {
+    color: rgb(215, 219, 222);
+    text-decoration: none;
+}
+
+.padding {
+    padding-left: 10%;
+    padding-right: 10%;
+}

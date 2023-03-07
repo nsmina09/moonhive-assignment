@@ -1,0 +1,36 @@
+select {
+    border: none;
+    color: gray;
+    font-size: x-small;
+}
+
+.number {
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.h1 {
+    font-size: small;
+}
+
+.b1 {
+    color: gray;
+    font-size: x-small;
+}
+
+.image {
+    width: 70%;
+    height: 40%;
+    margin: auto;
+}
+
+.height{
+    height: 30%;
+}
+
+.grey{
+    color: gray;
+    font-size: small;
+    margin-right: 5px;
+}

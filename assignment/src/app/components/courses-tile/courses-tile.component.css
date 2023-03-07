@@ -1,0 +1,21 @@
+.main-div {
+    height: 170px;
+    width: 270px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.img {
+    height: 140px;
+    width: 100%;
+}
+
+.icon{
+    color: gray;
+}
+
+.small{
+    font-size: small;
+    font-weight: 500;
+}

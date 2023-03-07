@@ -1,0 +1,15 @@
+.name{
+    color: rgb(88, 87, 87);
+    font-weight: 500;
+    font-size: large;
+}
+
+.main{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.small{
+    font-size: small;
+    color:  gray;
+}

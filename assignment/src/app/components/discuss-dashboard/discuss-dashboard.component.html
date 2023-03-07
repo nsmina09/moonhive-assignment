@@ -1,0 +1,19 @@
+<div class=" d-flex justify-content-between px-2 row">
+    <div class="d-flex col-2 align-items-center justify-content-start">
+        <div class="avatar "></div>
+        <div class="text-start ms-2">
+            <div class="day">{{date}}</div>
+            <div class="name">{{name}}</div>
+        </div>
+    </div>
+    <div class="para col-6">
+       {{description}}
+       <br>
+        <button *ngIf="showButton" class="tile-button">Angular fundamentals</button>
+    </div>
+    <div class="col-1 text-center">
+        <div>{{numberOfAnswer}}</div>
+        <div class="answers">answers</div>
+    </div>
+</div>
+<hr class="mb-1">

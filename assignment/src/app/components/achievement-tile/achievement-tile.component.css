@@ -1,0 +1,43 @@
+.main-div {
+    width: 98%;
+    height: 220px;
+    background-color: white;
+    background-image: url('/assets/bg-1.jpg');
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.img-1 {
+    height: 40px;
+    width: 40px;
+}
+
+.img-2 {
+    height: 90px;
+    width: 100px;
+}
+
+.h1 {
+    font-weight: 500;
+    font-size: medium;
+    color: white;
+}
+
+.h2 {
+    font-weight: 700;
+    font-size: medium;
+    color: white;
+}
+
+.b1 {
+    color: rgb(243, 242, 242);
+    font-size: small;
+    font-weight: 400;
+}
+
+.b2 {
+    color: rgb(243, 242, 242);
+    font-size: small;
+    font-weight: 400;
+}
+

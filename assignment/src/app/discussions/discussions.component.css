@@ -1,0 +1,69 @@
+.nav-link {
+    font-size: small;
+    padding: 10px;
+
+}
+
+.select {
+    border: none;
+    color: gray;
+}
+
+::placeholder {
+    font-size: small;
+    color: gray;
+}
+
+.input {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(227, 223, 223);
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: aqua;
+}
+
+.day {
+    color: gray;
+    font-size: small;
+}
+
+.name {
+    color: black;
+    font-size: small;
+}
+
+.para {
+    color: black;
+    font-size: small;
+    font-weight: 500;
+}
+
+.answers {
+    color: gray;
+    font-size: x-small;
+}
+
+.num {
+    color: black;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.tile-button {
+    margin-top: 5px;
+    border-radius: 30px;
+    padding: 5px;
+    border: gray solid 1px;
+    color: gray;
+}
+
+.more {
+    font-size: small;
+    color: gray;
+    text-decoration: underline solid grey 1px;
+}

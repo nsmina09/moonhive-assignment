@@ -1,0 +1,86 @@
+<div class="w-100 padding py-5">
+
+  <!-- alert section -->
+  <app-alert></app-alert>
+
+  <!-- second portion -->
+<div class="row height">
+  <div class="col-md-6">
+  <app-card-dashboard number="112" topic="Angular"></app-card-dashboard>
+  </div>
+  <div class="col-md-6">
+    <app-iq-dashboard number="333" topic="Experience IQ" details="4 days streak this week"></app-iq-dashboard>
+    <app-achievement-tile  domain="Flinto"
+    description="Introduction to full stack developing angular"></app-achievement-tile>
+    </div>
+</div>
+
+  <!-- learning paths and course -->
+  <div class="row">
+
+    <!-- learning path -->
+    <div class="col-md-6 learning">
+        <div class="d-flex justify-content-between my-3">
+          <h6>Learning Paths</h6>
+          <a class="a1" href="">All my learning paths</a>
+        </div>
+        <div class="w-100">
+          <app-tiles imgaeUrl1="assets/angular.png" course1="Angular"  
+          numberCourseOne="24 Courses" ></app-tiles>
+        <app-tiles imgaeUrl1="assets/swift.jpg" course1="Swift" 
+           numberCourseTwo="34 Courses"></app-tiles>
+           <app-tiles imgaeUrl1="assets/word press.png" course1="Swift" 
+           numberCourseTwo="34 Courses"></app-tiles>
+        </div>
+    </div>
+
+    <!-- course -->
+    <div class="col-md-6">
+      <div class="d-flex justify-content-between my-3">
+        <h6>Courses</h6>
+        <a class="a1" href="">All my courses</a>
+    </div>
+    <div class="courses-div">
+        <app-courses-tile title="Learn Angular" url="assets/angular blue.png"></app-courses-tile>
+        <app-courses-tile title="Build an iOS application" url="assets/react.png"></app-courses-tile>
+        <app-courses-tile title="Learn full stack developing" url="assets/swift.jpg"></app-courses-tile>
+        <app-courses-tile title="Build Angular website" url="assets/angular blue.png"></app-courses-tile>
+        <app-courses-tile title="Learn React" url="assets/word press.png"></app-courses-tile>
+    </div>
+    </div>
+
+  </div>
+
+  <!-- discussions section -->
+  <div>
+    <h6>Discussions</h6>
+    <div class="bg-light rounded col-md-12">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="nav-link">
+          <input class="input py-2 px-2" type="text" placeholder="Search discussions &nbsp; &#Xf002;">
+        </div>
+        <div class="nav-link">
+          <select class="select bg-light mx-2" name="" id="">
+            <option>My posts</option>
+          </select>
+          <button class="btn btn-danger">Ask Questions</button>
+        </div>
+      </div>
+      <hr>
+      <div>
+        <app-discussion-component name="Mina NS" date="2 days ago"
+          description=" optio molestias deserunt. lorem lisprum" numberOfAnswer="1"
+          [showButton]=true></app-discussion-component>
+        <app-discussion-component name="Mina NS" date="2 days ago"
+          description="Loreorem liorem lipsum Lorem ipsum dolor, sit amet consectetur sprum" [showButton]=false
+          numberOfAnswer="1"></app-discussion-component>
+        <app-discussion-component name="Mina NS" date="2 days ago" numberOfAnswer="2" [showButton]=false
+          description="Lorem lipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse aliquam optio molestias deserunt. lorem lisprum"></app-discussion-component>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a class="more mb-1" href="">view more discussions</a>
+      </div>
+    </div>
+  </div>
+
+</div>

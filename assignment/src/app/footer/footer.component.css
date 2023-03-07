@@ -1,0 +1,46 @@
+.padding {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.second-footer {
+    background-color: rgb(43, 43, 102);
+    color: gainsboro;
+}
+
+.input{
+    width: auto;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: rgb(43, 43, 102);
+    border: white 1px solid;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.link{
+    font-size: small;
+}
+
+.copy{
+    text-decoration: none;
+    font-size: small;
+}
+
+.third-footer{
+    font-size: xx-small;
+    background-color: rgb(5, 28, 46);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.third-footer-select {
+    font-size: xx-small;
+    color: white;
+    background-color: rgb(5, 28, 46);
+    border: none;
+    size: 5px;
+}
